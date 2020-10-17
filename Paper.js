@@ -6,7 +6,7 @@ class Paper {
         'friction':0.5,
         'density':1.2
     }
-    this.body = Bodies.rectangle(x, y, width, height, options);
+    this.body = Bodies.circle(x, y, width, height);
     this.width = width;
     this.height = height;
     
