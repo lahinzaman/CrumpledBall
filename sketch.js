@@ -32,8 +32,8 @@ Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:85,y:-85})
 function draw() {
   rectMode(CENTER);
   background(0);
-  paper.display;
-
+  paper.display();
+line.display();
   drawSprites();
  
 }
